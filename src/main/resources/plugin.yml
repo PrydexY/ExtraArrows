@@ -1,0 +1,4 @@
+name: ExtraArrows2
+version: '${project.version}'
+main: tronmc.fun.extraarrows2.ExtraArrows2
+api-version: 1.19

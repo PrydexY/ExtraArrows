@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9ff2b649-2b68-428c-a2b9-2b0be1f0c290" name="TRON.MC">
+        <fileTransfer accessType="SFTP" host="192.168.27.77" port="22" sshConfigId="f89ef90c-4340-4261-8fbe-f620187afa97" sshConfig="root@192.168.27.77:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
