@@ -23,8 +23,8 @@ public class ItemManager {
         item.setItemMeta(meta);
         TNTArrow = item;
         ShapelessRecipe recipe = new ShapelessRecipe(NamespacedKey.minecraft("tntarrow_shapless"), item);
-        recipe.addIngredient(1,Material.GUNPOWDER);
-        recipe.addIngredient(4, Material.ARROW);
+        recipe.addIngredient(4,Material.GUNPOWDER);
+        recipe.addIngredient(1, Material.ARROW);
         Bukkit.getServer().removeRecipe(NamespacedKey.minecraft("tntarrow_shapless"));
         Bukkit.getServer().addRecipe(recipe);
 

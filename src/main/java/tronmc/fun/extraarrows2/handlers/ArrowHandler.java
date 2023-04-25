@@ -20,7 +20,7 @@ public class ArrowHandler implements Listener{
         Bukkit.getLogger().info(entity.getName());
         if ((entity.getName()).equals("1")) {
             World w = entity.getWorld(); //if the event has a player object use that to get the world
-            w.createExplosion(entity.getLocation().x(), entity.getLocation().y(), entity.getLocation().z(), 3);
+            w.createExplosion(entity.getLocation().x(), entity.getLocation().y(), entity.getLocation().z(), 4);
             entity.remove();
         }
     }
