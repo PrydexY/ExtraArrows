@@ -2,4 +2,4 @@
 
 Plugin adds new arrows.
   Actual update:
-    - TNT Arrows
+    - TNT Arrows.
